@@ -12,8 +12,27 @@ body {
   font-family: 'Estonia', cursive;
   font-family: 'Merienda One', cursive;
 }
+.nav-link {
+  font-family: 'Estonia', cursive;
+  font-family: 'Merienda One', cursive;
+  font-size: 22px;
+}
 .navbar-brand {
   font-family: 'Estonia', cursive;
   font-family: 'Merienda One', cursive;
   color: #c81717 !important;
+}
+hr {
+  width: 88px;
+  padding: 3.8px;
+  border: none;
+  border-radius: 5px;
+  background-color: tan;
+  opacity: 5;
+  margin: 0px;
+}
+.section-title {
+  font-family: 'Estonia', cursive;
+  font-family: 'Merienda One', cursive;
+  font-size: 24px;
 }
