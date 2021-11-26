@@ -195,3 +195,40 @@ select option {
   border-radius: 10px;
   border: transparent;
 }
+@media screen and (max-width: 1190px) {
+  .card {
+    height: 230px;
+    margin-bottom: 10px;
+  }
+  .card img {
+    height: 170px;
+  }
+  .aside-section {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .aside-section {
+    margin-bottom: 50px;
+    width: 700px;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  body {
+    overflow-x: scroll;
+  }
+  .card {
+    margin-left: 0px;
+  }
+  .main-section {
+    width: 100%;
+    min-width: 333px;
+  }
+  .aside-section {
+    width: 500px;
+    margin: 0px auto;
+  }
+}
