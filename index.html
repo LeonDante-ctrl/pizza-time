@@ -5,11 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Merienda+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css">                  
     <script src="js/lightslider.js"></script>
     
     <script src="js/jquery.min.js"></script>
@@ -267,5 +265,26 @@
                 </ul>
               </div>
             </div>
+            <div class="col-md-4 aside-section mb-5">
+                <div class="order-form">
+                  <h4 class="mx-3">Place your order</h4>
+                  <form class="mb-5">
+                    <div class="mb-2">
+                      <label for="pizza">Select pizza category right here</label>
+                      <select id="pizzaCategory" class="form-control" required>
+                        <option value="">...</option>
+                        <option value="meatarian">Meaty pizzas</option>
+                        <option value="vegetarian">Vegan pizzas</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="size">Select pizza size below</label>
+                        <select id="pizzaSize" class="form-control" required>
+                          <option value="">...</option>
+                          <option value="large">Large</option>
+                          <option value="medium">Medium</option>
+                          <option value="small">Small</option>
+                        </select>
+                      </div>
 </body>
 </html>l
