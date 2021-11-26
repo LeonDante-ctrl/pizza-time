@@ -96,4 +96,41 @@ hr {
   width: 100vw;
   margin-right: 20px;
 }
+.cart {
+  display: none;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  position: relative;
+}
+.cart-btn {
+  position: relative;
+  cursor: pointer;
+}
+.cart-btn img {
+  width: 40px;
+}
 
+.cart-items {
+  position: absolute;
+  top: 3px;
+  right: 217px;
+  padding: 0 9px;
+  border-radius: 50%;
+  color: #fff;
+}
+#cart-count {
+  font-size: 17px;
+  font-weight: 600;
+}
+.custom-button {
+  border: 1px solid #c81717;
+  color: #c81717;
+}
+.custom-button:hover {
+  background-color: #c81717;
+  color: white;
+}
+.toppings {
+  display: flex;
+}
