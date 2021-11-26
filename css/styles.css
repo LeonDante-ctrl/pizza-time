@@ -134,3 +134,14 @@ hr {
 .toppings {
   display: flex;
 }
+tr:nth-child(even) {
+  background-color: rgba(199, 152, 64, 0.5) !important;
+}
+
+th {
+  background-color: #c81717 !important;
+  color: white;
+}
+td {
+  color: black;
+}
