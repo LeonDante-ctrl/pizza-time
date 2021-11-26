@@ -277,6 +277,10 @@
                         <option value="vegetarian">Vegan pizzas</option>
                       </select>
                     </div>
+                    <label for="pizza">Select your pizza </label>
+                  <select id="pizzaOption" class="form-control" required>
+                    <option value="">...</option>
+                  </select>
                     <div class="mb-3">
                         <label for="size">Select pizza size below</label>
                         <select id="pizzaSize" class="form-control" required>
@@ -309,7 +313,7 @@
                         </select>
                       </div>
                       <div class="mb-2">
-                        <label for="amount">How many pizza do you want</label>
+                        <label for="amount">How many pizzas do you want</label>
                         <input
                           class="form-control"
                           id="amount"
@@ -336,6 +340,15 @@
                               Checkout
                             </button>
                           </div>
+                          <p class="cart-items p-0 m-0">
+                            <span id="cart-count"></span>
+                          </p>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
       
 </body>
 </html>l
