@@ -163,3 +163,19 @@ td {
 .delivery-form input {
   width: 70% !important;
 }
+#amount,
+select,
+select:focus {
+  color: #fff !important;
+  font-weight: 400 !important;
+  outline: none !important;
+  border: none !important;
+  border-bottom: 1px solid #fff !important;
+  background-color: transparent !important;
+}
+select option {
+  margin: 40px;
+  background-color: #212529;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
