@@ -47,3 +47,22 @@ hr {
   font-family: 'Estonia', cursive;
   font-family: 'Merienda One', cursive;
 }
+.card {
+  height: 230px;
+  margin: 10px 20px;
+  border-color: #212529;
+  outline-color: #212529;
+  border-radius: 100px;
+  border-bottom-left-radius: px;
+  border-bottom-right-radius:5px;
+  overflow: hidden;
+  text-align: center;
+}
+.card-body {
+  background-color: #212529;
+  border-color: #212529;
+  outline-color: #212529;
+  color: #fff;
+  font-family: 'Estonia', cursive;
+  font-family: 'Merienda One', cursive;
+}
