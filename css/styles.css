@@ -1,0 +1,19 @@
+.navbar-brand {
+  font-family: 'Estonia', cursive;
+  font-family: 'Merienda One', cursive;
+  font-size: 38px;
+  color: blueviolet !important;
+}
+body {
+  background-color: #212529;
+  color: white;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Estonia', cursive;
+  font-family: 'Merienda One', cursive;
+}
+.navbar-brand {
+  font-family: 'Estonia', cursive;
+  font-family: 'Merienda One', cursive;
+  color: #c81717 !important;
+}
