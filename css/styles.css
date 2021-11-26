@@ -37,12 +37,12 @@ hr {
   font-size: 24px;
 }
 .pizza-name {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 60;
 }
 .card-body span {
   width: 100%;
-  line-height: 20px;
+  line-height: 10px;
 
   font-family: 'Estonia', cursive;
   font-family: 'Merienda One', cursive;
@@ -65,4 +65,12 @@ hr {
   color: #fff;
   font-family: 'Estonia', cursive;
   font-family: 'Merienda One', cursive;
+}
+.card img {
+  background-color: #212529;
+  height: 180px;
+  width: 120%;
+  object-fit: fill;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #fff;
 }
